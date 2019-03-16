@@ -8,8 +8,11 @@
 
 // Your code :
 
-function id(x) {
-return x;
+const id{
+    return 'function';
+}
+const id(length){
+    return 1;
 }
 
 //* Begin of tests
@@ -18,6 +21,10 @@ const assert = require('assert')
 assert.strictEqual(typeof id, 'function')
 assert.strictEqual(id.length, 1)
 assert.strictEqual(id(5), 5)
+assert.strictEqual(id('pouet'), 'pouet')
+assert.strictEqual(id(assert), assert)
+// End of tests */
+tEqual(id(5), 5)
 assert.strictEqual(id('pouet'), 'pouet')
 assert.strictEqual(id(assert), assert)
 // End of tests */
