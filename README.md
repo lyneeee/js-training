@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Lyneeee/js-training.svg?branch=master)](https://travis-ci.org/Lynee/js-training)
+[![Build Status](https://travis-ci.org/Lyneeee/js-training.svg?branch=mabranche)](https://travis-ci.org/Lynee/js-training)
 ## Setup
 First, [**fork**](https://github.com/nan-academy/js-training/fork?fragment=1) this repository.
 ### globals dependencies
