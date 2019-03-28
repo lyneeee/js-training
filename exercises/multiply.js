@@ -10,6 +10,56 @@
 
 // Your code :
 
+function multiply (x,y){
+    let r=0
+
+
+if (x>0){
+ 
+    if (y>0){
+        for (let i=0; i<y; i++);{
+          r+=x
+        }
+        return r;
+    }
+
+
+    else if (y<0){
+        for (let i=0; i<y; i++);{
+            r+=x
+        }
+        return r;
+    }
+}
+
+
+else if (x<0){
+
+    if (y>0){
+        for (let i=0; i<y; i--);{
+          r+=x
+        }
+        return -r;
+    }
+
+
+    else if (y<0){
+        for (let i=0; i<y; i--);{
+          r+=x
+        }
+        return r;
+    }
+}
+
+else if (x===0){
+        return x;
+}
+
+else if (y===0){
+        return y;
+}
+
+}
 //* Begin of tests
 const assert = require('assert')
 
