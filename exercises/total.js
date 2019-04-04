@@ -7,10 +7,11 @@
  */
 
  function total (y) {
-     var r=0
+     var r=0;
      for (var i=0; i<y.length ; i++){
-        r+=y[i]}
-     return (r)
+        r+=y[i];
+    }
+     return (r);
  }
 
 
