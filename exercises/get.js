@@ -17,6 +17,12 @@ const sourceObject = {
 
 // Your code :
 
+
+function get (key){
+  return key = sourceObject[key]
+}
+
+
 //* Begin of tests
 const assert = require('assert')
 
